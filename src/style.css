@@ -120,6 +120,19 @@ a:hover {
   font-weight: 500;
   margin-top: 2px;
 }
+.version-tile {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #ffffffcc; /* white with slight transparency */
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    color: #333;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    backdrop-filter: blur(6px);
+    z-index: 9999;
+}
 
 /* Form Pages */
 .form-body {
